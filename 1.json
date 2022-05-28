@@ -1,0 +1,1 @@
+{"elements":[{"active":true,"attrPath":"catalog.x86_64-linux.nixpkgs.stable.cowsay","originalUrl":"flake:floxpkgs","storePaths":["/nix/store/walii4wy2l53xfs9m3alni5q5k56khbi-cowsay-3.04"],"url":"git+ssh://git@github.com/flox/floxpkgs?ref=master&rev=98943337d6d55ec78a3ead18e3e85c47dcfeeb1d"}],"version":2}

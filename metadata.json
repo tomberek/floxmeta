@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "generations": {
+    "1": {
+      "path": "/nix/store/l31x6kpfjb12aclxbgs6xsjf11i5ds7s-profile",
+      "logMessage": [
+        "Generation 1: tom installed nixpkgs.stable.cowsay"
+      ],
+      "created": 1653756984,
+      "lastActive": 1653756984
+    }
+  },
+  "currentGen": "1"
+}
