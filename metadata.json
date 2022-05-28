@@ -7,8 +7,16 @@
         "Generation 1: tom installed nixpkgs.stable.cowsay"
       ],
       "created": 1653756984,
-      "lastActive": 1653756984
+      "lastActive": 1653761591
+    },
+    "2": {
+      "path": "/nix/store/hni7qd48hyfnyvbqyq2hsp6w3sww41q0-profile",
+      "logMessage": [
+        "Generation 1->2: tomberek installed flox.stable.flox"
+      ],
+      "created": 1653761595,
+      "lastActive": 1653761591
     }
   },
-  "currentGen": "1"
+  "currentGen": "2"
 }
