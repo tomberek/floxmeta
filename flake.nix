@@ -106,7 +106,7 @@
             packages = builtins.concatMap (fetchFromElement system) manifestAttr.elements;
             env = makeEnv system packages;
           in {
-            env = env;
+            default = env;
             manifest = makeManifest system env manifestPath;
           }
         )
