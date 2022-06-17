@@ -31,8 +31,16 @@
         "Generation 3->4: tomberek removed flox.stable.flox"
       ],
       "created": 1655497353,
-      "lastActive": 1655497353
+      "lastActive": 1655497362
+    },
+    "5": {
+      "path": "/nix/store/dcvwwd5s71yhq1l090gfgbccpxh890ga-profile",
+      "logMessage": [
+        "Generation 4->5: tomberek installed legacyPackages.x86_64-linux.catalog.nixpkgs.stable.cowsay"
+      ],
+      "created": 1655497363,
+      "lastActive": 1655497362
     }
   },
-  "currentGen": "4"
+  "currentGen": "5"
 }
