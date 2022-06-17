@@ -8,8 +8,7 @@
     legacyPackages =
       builtins.mapAttrs (
         system: _:
-          (self.lib.packageSet system manifestAttr).legacyPackages.${system}
-      )
+          (self.lib.packageSet system manifestAttr).legacyPackages.${system} or {})
       self.lib.systems;
     packages =
       builtins.mapAttrs (
@@ -18,14 +17,36 @@
       )
       self.lib.systems;
 
+    generations = with builtins; let
+      nameValuePair = name: value: { inherit name value; };
+      filterAttrs = pred: set:
+    listToAttrs (concatMap (name: let v = set.${name}; in if pred name v then [(nameValuePair name v)] else []) (attrNames set));
+    gensJSON = filterAttrs
+    (n: v: builtins.match "[0-9]*\\.json$" n != null && v == "regular")
+    (builtins.readDir ./.);
+    gens = map (x: builtins.substring 0 (stringLength x - 5) x) (builtins.attrNames gensJSON);
+
+    genAttrs = names: f: listToAttrs (map (n: nameValuePair n (f n)) names);
+
+    in genAttrs gens (gen: let
+        manifestAttr = with builtins; fromJSON (readFile manifestPath);
+        manifestPath = "${self.outPath}/${gen}.json";
+    in {
+    legacyPackages =
+      builtins.mapAttrs (
+        system: _:
+          (self.lib.packageSet system manifestAttr).legacyPackages.${system} or {})
+      self.lib.systems;
+    });
+
     lib = rec {
       systems = {
         "aarch64-darwin" = {};
         "aarch64-linux" = {};
-        "armv6l-linux" = {};
-        "armv7l-linux" = {};
-        "i686-linux" = {};
-        "mipsel-linux" = {};
+        # "armv6l-linux" = {};
+        # "armv7l-linux" = {};
+        # "i686-linux" = {};
+        # "mipsel-linux" = {};
         "x86_64-darwin" = {};
         "x86_64-linux" = {};
       };
