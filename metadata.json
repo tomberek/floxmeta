@@ -15,8 +15,16 @@
         "Generation 1->2: tomberek installed flox.stable.flox"
       ],
       "created": 1653761595,
-      "lastActive": 1653761591
+      "lastActive": 1655497326
+    },
+    "3": {
+      "path": "/nix/store/hnrfpihlbd7kwib64qhi6p4rzhxnsp3r-profile",
+      "logMessage": [
+        "Generation 2->3: tomberek removed nixpkgs.stable.cowsay"
+      ],
+      "created": 1655497326,
+      "lastActive": 1655497326
     }
   },
-  "currentGen": "2"
+  "currentGen": "3"
 }
