@@ -47,8 +47,16 @@
         "Generation 5->6: tomberek installed legacyPackages.x86_64-linux.catalog.nixpkgs.stable.hello"
       ],
       "created": 1655497999,
-      "lastActive": 1655497998
+      "lastActive": 1656003968
+    },
+    "7": {
+      "path": "/nix/store/g3l5gqs518yrma210y588ilhx3kfpy4x-profile",
+      "logMessage": [
+        "Generation 6->7: tomberek edited declarative profile"
+      ],
+      "created": 1656003971,
+      "lastActive": 1656003968
     }
   },
-  "currentGen": "6"
+  "currentGen": "7"
 }
