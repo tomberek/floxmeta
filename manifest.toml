@@ -31,6 +31,10 @@
   channel = "nixpkgs"
   stability = "stable"
 
+  [packages."flox"]
+  channel = "flox"
+  stability = "stable"
+
   [packages."hello"]
   channel = "nixpkgs"
   stability = "stable"
