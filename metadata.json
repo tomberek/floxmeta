@@ -63,8 +63,16 @@
         "Generation 7->8: tomberek installed flox.stable.flox"
       ],
       "created": 1656171937,
-      "lastActive": 1656171490
+      "lastActive": 1656176108
+    },
+    "9": {
+      "path": "/nix/store/8lz5jh8f46hs5c10pb9dl0j9pq40qd4k-profile",
+      "logMessage": [
+        "Generation 8->9: tomberek edited declarative profile"
+      ],
+      "created": 1656176116,
+      "lastActive": 1656176108
     }
   },
-  "currentGen": "8"
+  "currentGen": "9"
 }
