@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "generations": {
+    "1": {
+      "path": "/nix/store/f6fq30djasyjkhrvp114jhwmd26wsv98-profile",
+      "logMessage": [
+        "Generation 1: tomberek installed stable.nixpkgs.hello"
+      ],
+      "created": 1658251302,
+      "lastActive": 1658251302
+    }
+  },
+  "currentGen": "1"
+}

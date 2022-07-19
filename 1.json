@@ -1,0 +1,1 @@
+{"elements":[{"active":true,"attrPath":"legacyPackages.aarch64-darwin.stable.nixpkgs.hello","originalUrl":"flake:floxpkgs","outputs":null,"storePaths":["/nix/store/h2vj9r5g4c2rlb54w0h8phn2j8zh33wj-hello-2.12"],"url":"github:flox/floxpkgs/ebc6ef8961bd6cb1d93283126ce66bf3176b1ba0"}],"version":2}
