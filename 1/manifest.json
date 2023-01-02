@@ -1,0 +1,15 @@
+{
+  "elements": [
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-darwin.stable.flox-prerelease",
+      "originalUrl": "flake:flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/26bj68mhp214a4jn1xf9nbkxs5klf5qm-flox-prerelease-0.1.0-r267-0.0.8-r115"
+      ],
+      "url": "flake:flox/3bcd979f48e4f0684ea4d70ae8fcb134e67a1af7"
+    }
+  ],
+  "version": 2
+}

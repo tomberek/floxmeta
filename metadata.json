@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "currentGen": "1",
+  "generations": {
+    "1": {
+      "path": "/nix/store/58kf8mvlh98z72mz3yzjbb6pvslrbj47-floxShell",
+      "logMessage": [
+        "tomberek installed stable.flox.flox-prerelease"
+      ],
+      "created": 1672636452,
+      "lastActive": 1672636452,
+      "version": 2
+    }
+  }
+}
