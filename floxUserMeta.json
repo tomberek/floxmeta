@@ -1,7 +1,4 @@
 {
-  "channels": {
-    "unstable": "github:flox/nixpkgs/unstable"
-  },
   "defaultFlake": "github:flox/floxpkgs/master",
   "defaultSubstituter": "https://cache.floxdev.com",
   "educatePublish": 1,
