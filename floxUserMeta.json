@@ -1,13 +1,5 @@
 {
-  "channels": {
-    "flox-mkenigs": "github:flox/floxpkgs"
-  },
-  "defaultFlake": "github:flox/floxpkgs/master",
-  "defaultSubstituter": "https://cache.floxdev.com",
-  "educatePublish": 1,
-  "floxClientUUID": "d0efcb74-9a16-11ed-88e4-23c95582949b",
-  "floxMetricsConsent": 1,
-  "gitBaseURL": "https://github.com/",
-  "organization": "flox",
+  "channels": {},
+  "floxClientUUID": "3dac1734-a68a-11ed-904d-3f741bfe5fce",
   "version": 1
 }
