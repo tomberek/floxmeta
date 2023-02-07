@@ -1,7 +1,5 @@
 {
-  "channels": {
-    "flox-mkenigs": "floxpkgs"
-  },
+  "channels": {},
   "defaultFlake": "github:flox/floxpkgs/master",
   "defaultSubstituter": "https://cache.floxdev.com",
   "educatePublish": 1,
