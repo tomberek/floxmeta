@@ -1,7 +1,5 @@
 {
-  "channels": {
-    "limeytexan": "github:limeytexan/floxpkgs"
-  },
+  "channels": {},
   "educatePublish": 0,
   "floxClientUUID": "66c753e4-a68b-11ed-bc4c-bb59aed2c025",
   "floxMetricsConsent": 1,
