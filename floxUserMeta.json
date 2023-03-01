@@ -2,7 +2,7 @@
   "channels": {
     "limeytexan": "github:limeytexan/floxpkgs"
   },
-  "educatePublish": 0,
+  "educatePublish": 1,
   "floxClientUUID": "66c753e4-a68b-11ed-bc4c-bb59aed2c025",
   "floxMetricsConsent": 1,
   "gitBaseURL": "https://github.mycompany.com/",
